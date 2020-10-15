@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#A1A2FF">
+
+<!--    <fragment-->
+<!--        android:id="@+id/navHostFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--        app:defaultNavHost="true"-->
+<!--        app:navGraph="@navigation/fragment"-->
+<!--        />-->
+
+
+    <TextView
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="395dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="CamBox"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        android:textStyle="" />
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="356dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="C a m e r a  S t o r e"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="" />
+
+    <LinearLayout
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="320dp"
+        android:background="#FFFFFF"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:onClick="Start">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Start"
+            android:textColor="#282D64"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
